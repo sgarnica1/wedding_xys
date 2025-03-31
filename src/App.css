@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Numans&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family:  'AbrahamLincoln';
+  src: url('/fonts/AbrahamLincoln.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family:  'Didot';
+  src: url('/fonts/Didot.otf') format('opentype');
+  font-weight: normal;
+}
+
+@theme {
+  --font-abraham: 'AbrahamLincoln', 'sans-serif';
+  --font-didot: 'Didot', 'sans-serif';
+  --font-abhaya: "Abhaya Libre", serif;
+
+  --color-primary: #414141;
+  --color-secondary: #727272;
+  --color-accent: #5C724A;
+
+  --color-bg-primary: #F6F5EF;
+  --color-bg-secondary: #F0F0F0;
+
+  --color-button: #DCD7B7;
+}
+
+#root {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+
+  font-family: "Didot", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+
+  color-scheme: light dark;
+  color: #414141;
+  background-color: #F6F5EF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
