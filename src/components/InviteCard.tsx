@@ -28,7 +28,7 @@ const InviteCard = ({ familyKey, familyName, familyMembers }: InviteCardProps) =
         Confirmar asistencia
       </Link>
       <p className='text-secondary text-xs md:text-sm mt-4 text-center'>
-        Fecha límite: 13. 06. 2025
+        Por favor, confirma antes del 13. 06. 2025
       </p>
     </div>
   )
