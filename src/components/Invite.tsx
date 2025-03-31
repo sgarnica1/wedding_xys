@@ -2,18 +2,15 @@ import { useParams } from 'react-router-dom'
 import InviteCardImage from "../assets/images/invite_card.png"
 import InviteCard from './InviteCard'
 import { GUESTS } from '../utils/guests'
-
-interface FamilyType {
-  name: string,
-  members: string[]
-}
+import { FamilyType, GuestsType } from '../utils/types'
 
 const Invite = () => {
   const { id: familyKey } = useParams()
+  const guests = GUESTS as GuestsType;
 
   if (!familyKey) return <></>
 
-  const family: FamilyType = GUESTS[familyKey]
+  const family: FamilyType = guests[familyKey]
 
   console.log(family)
 
