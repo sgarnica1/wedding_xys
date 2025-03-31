@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { collection, addDoc } from 'firebase/firestore';
-import { db } from '../services/firebase.js';
+import { db } from '../services/firebase';
 import ErrorMessage from './ErrorMessage';
 import { FamilyType } from '../utils/types';
 
@@ -41,7 +41,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
       // Prepare data to send to Firebase
       const rsvpData = {
         familyName: family.name,
-        members: family.members.map((member) => ({
+        members: family.members.map((member: string) => ({
           name: member,
           attending: rsvps[familyKey][member],
         })),
@@ -88,7 +88,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
         <div className="mb-6">
           <h3 className="text-xl font-semibold mb-4 text-secondary">Confirma asistencia</h3>
           <div className="space-y-4">
-            {family.members.map((member) => (
+            {family.members.map((member: string) => (
               <div key={member} className="flex items-center">
                 <input
                   type="checkbox"
