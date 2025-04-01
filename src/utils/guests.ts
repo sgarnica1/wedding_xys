@@ -370,7 +370,7 @@ export const GUESTS = {
   "emilio-enriquez": {
     name: "Emilio Enríquez",
     members: [
-      "Emilio",
+      "Emi",
     ],
   },
   "yael-courtney": {
