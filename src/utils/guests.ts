@@ -118,10 +118,10 @@ export const GUESTS = {
     ],
   },
   "beto-isa": {
-    name: "Beto e Isa",
+    name: "Isa y Beto",
     members: [
-      "Beto",
       "Isa",
+      "Beto",
     ],
   },
   "fam-vidal": {
@@ -194,7 +194,7 @@ export const GUESTS = {
   "fam-pereira": {
     name: "Familia Pereira",
     members: [
-      "Bryan",
+      "Wero",
       "Gis",
     ],
   },
@@ -235,16 +235,11 @@ export const GUESTS = {
       "Aquiles",
     ],
   },
-  "kevin-dlp": {
-    name: "Kevin de la Puente",
+  "kevin-pau": {
+    name: "Kevin de la Puente y Pau Guerrero",
     members: [
       "Kevin",
-    ],
-  },
-  "pau-guerrero": {
-    name: "Paulina Guerrero",
-    members: [
-      "Pau",
+      "Pau"
     ],
   },
   "ceci-reyes": {
@@ -273,7 +268,7 @@ export const GUESTS = {
       "Xime",
     ],
   },
-  "primary-guzman": {
+  "abraham-guzman": {
     name: "Abraham Guzmán",
     members: [
       "Abraham",
@@ -382,6 +377,18 @@ export const GUESTS = {
     name: "Yael Courtney",
     members: [
       "Yael",
+    ],
+  },
+  "andrea-tejeda": {
+    name: "Andrea Tejeda",
+    members: [
+      "Andy",
+    ],
+  },
+  "vale-salas": {
+    name: "Valeria Salas",
+    members: [
+      "Vale",
     ],
   },
   "victor-ramirez": {
