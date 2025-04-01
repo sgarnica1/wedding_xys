@@ -322,7 +322,7 @@ export const GUESTS = {
   "damariz-licea": {
     name: "Damariz Licea",
     members: [
-      "Damariz",
+      "Dama",
     ],
   },
   "david-langarica": {
