@@ -426,5 +426,13 @@ export const GUESTS = {
       "Silvana"
     ],
   },
+  "fam-montes": {
+    name: "Familia Montés",
+    members: [
+      "Evita",
+      "Horacio",
+      "Sebas",
+    ],
+  },
 
 }
