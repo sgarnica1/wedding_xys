@@ -36,6 +36,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
   const [loading, setLoading] = useState<boolean>(false);
   const [success, setSuccess] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const [refetch, setRefetch] = useState<boolean>(false);
   const [existingRsvpId, setExistingRsvpId] = useState<string | null>(null);
   const [isUpdating, setIsUpdating] = useState<boolean>(false);
   const [dataLoaded, setDataLoaded] = useState<boolean>(false);
@@ -82,7 +83,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
   // Fetch existing RSVP data if any
   useEffect(() => {
     fetchExistingRsvp();
-  }, [familyKey, family.members]);
+  }, [familyKey, family.members, refetch]);
 
   const handleRsvpSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -134,24 +135,23 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
 
   const handleUpdateClick = () => {
     setSuccess(false);
-    // No need to reset isUpdating or existingRsvpId
+    setRefetch(prev => !prev)
   };
 
   if (success) {
     return (
       <div className="w-full p-6 bg-white shadow-lg rounded-lg">
-        <h3 className="text-xl font-semibold mb-4 text-green-600 text-center">
+        <h3 className="text-xl font-bold mb-4 text-green-600 text-center">
           {isUpdating
             ? '¡Gracias por actualizar tu confirmación!'
             : '¡Gracias por confirmar!'}
         </h3>
-        <p className="text-lg text-center">Tu RSVP ha sido {isUpdating ? 'actualizado' : 'enviado'} correctamente.</p>
-        <p className="text-lg mt-4 text-center">Esperamos verte en nuestra celebración.</p>
+        <p className="text-md text-center">Tu RSVP ha sido {isUpdating ? 'actualizado' : 'enviado'} correctamente. Esperamos verte en nuestra celebración.</p>
         <button
-          className="w-full py-3 px-4 border-2 border-black hover:bg-primary hover:text-white hover:cursor-pointer transition duration-300 rounded text-lg font-medium mt-5"
+          className="w-full py-3 px-4 border-2 border-black hover:bg-primary hover:text-white hover:cursor-pointer transition duration-300 rounded text-lg font-medium mt-10"
           onClick={handleUpdateClick}
         >
-          Actualizar asistencia
+          Editar asistencia
         </button>
       </div>
     );
@@ -212,7 +212,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
           {loading
             ? 'Enviando...'
             : isUpdating
-              ? 'Actualizar Asistencia'
+              ? 'Editar Asistencia'
               : 'Confirmar Asistencia'}
         </button>
       </form>
