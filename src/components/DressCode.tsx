@@ -30,7 +30,7 @@ const DressCode = () => {
 
               <p className='text-secondary text-xl md:text-2xl mb-20'>Garden Party Formal</p>
 
-              <p className='text-secondary text-right text-md md:text-xl'>
+              <p className='text-secondary text-right text-xl'>
                 Animamos a nuestros invitados a seguir la siguiente paleta de colores:
               </p>
             </div>

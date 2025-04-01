@@ -11,7 +11,7 @@ const Gifts = () => {
             {/* Text content */}
             <h2 className='font-secondary text-5xl lg:text-7xl uppercase text-secondary text-left mb-5'>Mesa <br /> De <br /> Regalos</h2>
             <p className='text-secondary text-xl md:text-2xl mb-5'>Si está en tu corazón darnos algún presente, agradecemos mucho que sea por este medio.</p>
-            <p className='text-primary text-xl md:text-2xl mb-20'>¡Muchas gracias por su generosidad!</p>
+            <p className='text-primary text-xl md:text-2xl mb-20'>¡Muchas gracias por tu generosidad!</p>
             <p className='text-primary text-left text-2xl md:text-4xl'>Liverpool.</p>
             <p className='text-secondary text-left text-2xl mb-5'>
               No. de evento: 51643735
