@@ -40,47 +40,47 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
   const [isUpdating, setIsUpdating] = useState<boolean>(false);
   const [dataLoaded, setDataLoaded] = useState<boolean>(false);
 
+  const fetchExistingRsvp = async () => {
+    setLoading(true);
+    try {
+      // Create a query to find RSVP with matching id
+      const rsvpQuery = query(collection(db, 'rsvps'), where('rsvpData.id', '==', familyKey));
+      const querySnapshot = await getDocs(rsvpQuery);
+
+      if (!querySnapshot.empty) {
+        // We found an existing RSVP
+        const existingRsvp = querySnapshot.docs[0];
+        const rsvpData = existingRsvp.data();
+
+        // Update state with the existing RSVP data
+        const updatedRsvps: RsvpState = { ...rsvps };
+        updatedRsvps[familyKey] = family.members.reduce((acc: any, member: string) => {
+          // Find the member in the existing RSVP data
+          const memberData = rsvpData.rsvpData.members.find(
+            (m: MemberRsvp) => m.name === member
+          );
+
+          // Set attending status from existing data or default to true
+          acc[member] = memberData ? memberData.attending : true;
+          return acc;
+        }, {});
+
+        setRsvps(updatedRsvps);
+        setSpecialRequest(rsvpData.specialRequest || '');
+        setExistingRsvpId(existingRsvp.id);
+        setIsUpdating(true);
+      }
+    } catch (err) {
+      console.error("Error fetching existing RSVP:", err);
+      setError("Error al cargar datos existentes. Por favor, intenta de nuevo.");
+    } finally {
+      setLoading(false);
+      setDataLoaded(true);
+    }
+  };
+
   // Fetch existing RSVP data if any
   useEffect(() => {
-    const fetchExistingRsvp = async () => {
-      setLoading(true);
-      try {
-        // Create a query to find RSVP with matching id
-        const rsvpQuery = query(collection(db, 'rsvps'), where('rsvpData.id', '==', familyKey));
-        const querySnapshot = await getDocs(rsvpQuery);
-
-        if (!querySnapshot.empty) {
-          // We found an existing RSVP
-          const existingRsvp = querySnapshot.docs[0];
-          const rsvpData = existingRsvp.data();
-
-          // Update state with the existing RSVP data
-          const updatedRsvps: RsvpState = { ...rsvps };
-          updatedRsvps[familyKey] = family.members.reduce((acc: any, member: string) => {
-            // Find the member in the existing RSVP data
-            const memberData = rsvpData.rsvpData.members.find(
-              (m: MemberRsvp) => m.name === member
-            );
-
-            // Set attending status from existing data or default to true
-            acc[member] = memberData ? memberData.attending : true;
-            return acc;
-          }, {});
-
-          setRsvps(updatedRsvps);
-          setSpecialRequest(rsvpData.specialRequest || '');
-          setExistingRsvpId(existingRsvp.id);
-          setIsUpdating(true);
-        }
-      } catch (err) {
-        console.error("Error fetching existing RSVP:", err);
-        setError("Error al cargar datos existentes. Por favor, intenta de nuevo.");
-      } finally {
-        setLoading(false);
-        setDataLoaded(true);
-      }
-    };
-
     fetchExistingRsvp();
   }, [familyKey, family.members]);
 
@@ -132,6 +132,11 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
     });
   };
 
+  const handleUpdateClick = () => {
+    setSuccess(false);
+    // No need to reset isUpdating or existingRsvpId
+  };
+
   if (success) {
     return (
       <div className="w-full p-6 bg-white shadow-lg rounded-lg">
@@ -142,6 +147,12 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
         </h3>
         <p className="text-lg text-center">Tu RSVP ha sido {isUpdating ? 'actualizado' : 'enviado'} correctamente.</p>
         <p className="text-lg mt-4 text-center">Esperamos verte en nuestra celebración.</p>
+        <button
+          className="w-full py-3 px-4 border-2 border-black hover:bg-primary hover:text-white hover:cursor-pointer transition duration-300 rounded text-lg font-medium mt-5"
+          onClick={handleUpdateClick}
+        >
+          Actualizar asistencia
+        </button>
       </div>
     );
   }
