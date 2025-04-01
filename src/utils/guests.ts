@@ -174,6 +174,7 @@ export const GUESTS = {
     members: [
       "John",
       "Dana",
+      "Emma"
     ],
   },
   "fam-ramirez": {
