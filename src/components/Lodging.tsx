@@ -1,7 +1,7 @@
 
 const Lodging = () => {
   return (
-    <div className='flex flex-col justify-center items-center py-20 w-full bg-bg-primary max-w-md'>
+    <div className='flex flex-col justify-center items-center py-20 w-full bg-bg-primary'>
       <div className='flex flex-col justify-center items-center w-full px-6'>
         <h2 className='font-primary text-6xl uppercase mb-3'>Hospedaje</h2>
         <p className='text-xl md:text-2xl text-center text-secondary mb-6'>Casa Conejos / Hacienda de las Adelitas</p>
