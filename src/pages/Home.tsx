@@ -7,6 +7,8 @@ import DressCode from '../components/DressCode'
 import Gifts from '../components/Gifts'
 import Lodging from '../components/Lodging'
 import Map from '../components/Map'
+import Footer from '../components/Footer'
+import NotFound from './NotFound'
 
 const Home = () => {
 
@@ -14,7 +16,7 @@ const Home = () => {
 
   if (name && !(name in GUESTS))
     return (
-      <div>Not found</div>
+      <NotFound />
     )
 
   return (
@@ -26,6 +28,7 @@ const Home = () => {
       <Gifts />
       <Lodging />
       <Map />
+      <Footer />
     </div>
   )
 }

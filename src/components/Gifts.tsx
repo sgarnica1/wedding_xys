@@ -20,7 +20,7 @@ const Gifts = () => {
               href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51643735"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex justify-center items-center text-lg py-3 px-4 md:px-5 md:text-base border-2 border-black hover:bg-primary hover:text-white hover:cursor-pointer transition duration-300 rounded max-w-lg"
+              className="flex justify-center items-center text-xl py-3 px-4 md:px-5 md:text-base border-2 border-black hover:bg-primary hover:text-white hover:cursor-pointer transition duration-300 rounded max-w-lg"
             >
               Visitar
             </a>

@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<NotFound />} />
         <Route path="/invite/:id" element={<Home />} />
         <Route path="/rsvp/:id" element={<RsvpPage />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   )

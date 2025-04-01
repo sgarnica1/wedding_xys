@@ -12,8 +12,6 @@ const Invite = () => {
 
   const family: FamilyType = guests[familyKey]
 
-  console.log(family)
-
   return (
     <section className='bg-white py-12 md:py-20 px-4 md:px-6 flex flex-col items-center mx-auto pb-20'>
       <div className='w-full max-w-md'>

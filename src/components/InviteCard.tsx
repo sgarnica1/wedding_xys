@@ -17,7 +17,7 @@ const InviteCard = ({ familyKey, familyName, familyMembers }: InviteCardProps) =
         (
           <div className='text-primary text-lg mb-4'>
             {familyMembers.map((member, index) => (
-              <span key={index}>{`${index === familyMembers.length - 1 ? "y " : ""}${member}${index >= familyMembers.length - 2 ? " " : ", "}`}</span>
+              <span key={index}>{`${index > 0 && index === familyMembers.length - 1 ? "y " : ""}${member}${index >= familyMembers.length - 2 ? " " : ", "}`}</span>
             ))}
           </div>
         )}
