@@ -20,7 +20,7 @@ const Home = () => {
     )
 
   return (
-    <div>
+    <div className='bg-[#f6f5ef]'>
       <Hero />
       <Invite />
       <Itinerary />

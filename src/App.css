@@ -37,7 +37,7 @@
 
   color-scheme: light dark;
   color: #414141;
-  background-color: #f6f5ef;
+  background-color: #f6f5ef !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
