@@ -1,34 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Numans&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Numans&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import 'tailwindcss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
-  font-family:  'AbrahamLincoln';
+  font-family: 'AbrahamLincoln';
   src: url('/fonts/AbrahamLincoln.ttf') format('truetype');
-  font-weight: normal;
-}
-@font-face {
-  font-family:  'Didot';
-  src: url('/fonts/Didot.otf') format('opentype');
   font-weight: normal;
 }
 
 @theme {
-  --font-abraham: 'AbrahamLincoln', 'sans-serif';
-  --font-didot: 'Didot', 'sans-serif';
-  --font-abhaya: "Abhaya Libre", serif;
+  --font-primary: 'AbrahamLincoln', sans-serif;
+  --font-secondary: 'Josefin Slab', serif;
+  --font-abhaya: 'Abhaya Libre', serif;
 
   --color-primary: #414141;
   --color-secondary: #727272;
-  --color-accent: #5C724A;
+  --color-accent: #5c724a;
 
-  --color-bg-primary: #F6F5EF;
-  --color-bg-secondary: #F0F0F0;
+  --color-bg-primary: #f6f5ef;
+  --color-bg-secondary: #f0f0f0;
 
-  --color-button: #DCD7B7;
+  --color-button: #dcd7b7;
 }
 
 #root {
@@ -36,13 +31,13 @@
   padding: 0 auto;
   box-sizing: border-box;
 
-  font-family: "Didot", sans-serif;
+  font-family: 'Josefin Slab', serif;
   line-height: 1.5;
   font-weight: 600;
 
   color-scheme: light dark;
   color: #414141;
-  background-color: #F6F5EF;
+  background-color: #f6f5ef;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

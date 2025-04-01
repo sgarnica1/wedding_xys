@@ -29,8 +29,8 @@ const Invite = () => {
           familyMembers={family.members}
         />
 
-        <p className='text-secondary text-xs md:text-sm mt-4 text-center'>
-          Hemos decidido que este evento sea <span className='text-primary uppercase font-medium'>sin niños</span>.
+        <p className='text-secondary text-sm md:text-sm mt-4'>
+          Hemos decidido que este evento sea <span className='text-primary uppercase font-bold'>sin niños</span>.
           Esperamos esto no sea un impedimento para poder celebrar con nosotros.
         </p>
       </div>

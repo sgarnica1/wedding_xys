@@ -17,8 +17,8 @@ module.exports = {
         "button": "#DCD7B7",
       },
       fontFamily: {
-        abraham: ['AbrahamLincoln', 'sans-serif'],
-        didot: ['Didot', 'sans-serif'],
+        primary: ['AbrahamLincoln', 'sans-serif'],
+        secondary: ['Didot', 'sans-serif'],
         abhaya: ['Abhaya', 'sans-serif']
       }
     }

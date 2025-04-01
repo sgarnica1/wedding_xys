@@ -22,7 +22,7 @@ const DressCode = () => {
           <div className='w-7/10 flex flex-col p-4 md:p-8'>
             {/* Text content */}
             <div className='flex flex-col justify-center items-end md:items-end '>
-              <h2 className='font-abraham text-6xl lg:text-7xl uppercase text-secondary text-right'>Dress Code</h2>
+              <h2 className='font-primary text-6xl lg:text-7xl uppercase text-secondary text-right'>Dress Code</h2>
 
               <div className="relative w-full my-3 md:my-6">
                 <div className="absolute right-0 md:right-0 h-8 md:h-14 w-px bg-secondary transform origin-top rotate-90"></div>

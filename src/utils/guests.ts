@@ -1,6 +1,6 @@
 export const GUESTS = {
   "fam-maranon": {
-    name: "Fam. Marañon Romero",
+    name: "Familia Marañon Romero",
     members: [
       "Eleazar",
       "Raquel",
@@ -9,7 +9,7 @@ export const GUESTS = {
     ],
   },
   "fam-garnica": {
-    name: "Fam. Garnica González",
+    name: "Familia Garnica González",
     members: [
       "Sergio",
       "Tere",
@@ -18,7 +18,7 @@ export const GUESTS = {
     ],
   },
   "fam-romero": {
-    name: "Fam. Romero Cedillo",
+    name: "Familia Romero Cedillo",
     members: [
       "Gerardo",
       "Gabriela",
@@ -27,7 +27,7 @@ export const GUESTS = {
     ],
   },
   "fam-velasco": {
-    name: "Fam. Velasco Romero",
+    name: "Familia Velasco Romero",
     members: [
       "Hugo",
       "Claudia",
@@ -35,13 +35,13 @@ export const GUESTS = {
     ],
   },
   "patricia-romero": {
-    name: "Fam. Romero",
+    name: "Patricia",
     members: [
-      "Patricia",
+      "Paty",
     ],
   },
   "fam-maranon-castro": {
-    name: "Fam. Marañon Castro",
+    name: "Familia Marañon Castro",
     members: [
       "Eleazar",
       "Mary",
@@ -52,7 +52,7 @@ export const GUESTS = {
     ],
   },
   "fam-maranon-heras": {
-    name: "Fam. Marañon Heras",
+    name: "Familia Marañon Heras",
     members: [
       "Edgar",
       "Nora",
@@ -60,7 +60,7 @@ export const GUESTS = {
     ],
   },
   "fam-hefflin": {
-    name: "Fam. Hefflin Marañon",
+    name: "Familia Hefflin Marañon",
     members: [
       "Chris",
       "Annie",
@@ -68,36 +68,35 @@ export const GUESTS = {
   },
   "mami-tere": {
     name: "Mami Tere",
-    members: ["Mami Tere",
-    ],
+    members: ["Mami Tere"],
   },
   "fam-gonzalez-morales": {
-    name: "Fam. González  Morales",
+    name: "Familia González  Morales",
     members: [
       "Jorge",
-      "Beatriz",
-      "Ana Paula",
-      "Isabela",
+      "Bety",
+      "Ana Pau",
+      "Isabel",
       "Teresa",
     ],
   },
   "fam-garcia-gonzalez": {
-    name: "Fam. Garcia Gonzalez",
+    name: "Familia Garcia González",
     members: [
-      "Mónica",
+      "Moni",
       "Manuel",
     ],
   },
   "daniela-garcia": {
     name: "Daniela García",
     members: [
-      "Daniela",
+      "Dani",
     ],
   },
   "antonio-garcia": {
     name: "Antonio García",
     members: [
-      "Antonio",
+      "Toño",
     ],
   },
   "adriana-gonzalez": {
@@ -106,36 +105,36 @@ export const GUESTS = {
       "Adriana",
     ],
   },
-  "daniel-cejas": {
+  "luis-daniel-cejas": {
     name: "Luis Daniel Cejas",
     members: [
-      "Luis Daniel",
+      "Luigi",
     ],
   },
-  "leticia-garnica": {
-    name: "Leticia Garnica",
+  "lety-garnica": {
+    name: "Lety Garnica",
     members: [
-      "Leticia",
+      "Lety",
     ],
   },
   "beto-isa": {
-    name: "Fam. Vidal Gallegos",
+    name: "Beto e Isa",
     members: [
-      "Alberto",
+      "Beto",
       "Isa",
     ],
   },
   "fam-vidal": {
-    name: "Fam. Vidal Mejorada",
+    name: "Familia Vidal Mejorada",
     members: [
-      "Fernando",
-      "Gabriel",
+      "Fer",
+      "Gaby",
     ],
   },
-  "sergio-garnica": {
-    name: "Sergio Granica",
+  "abo": {
+    name: "Sergio Garnica Rosas",
     members: [
-      "Sergio",
+      "Abo",
     ],
   },
   "tio-luis": {
@@ -153,82 +152,84 @@ export const GUESTS = {
   "mirelle-hernandez": {
     name: "Mirelle Hernández",
     members: [
-      "Mirelle",
+      "Meme",
     ],
   },
   "giselle-hernandez": {
-    name: "Giselle & José",
+    name: "Giselle y José Ramón",
     members: [
-      "Giselle",
+      "Gigi",
       "José Ramón",
     ],
   },
   "fam-issa": {
-    name: "Fam. Issa",
+    name: "Familia Issa",
     members: [
       "Bai",
       "Mich",
     ],
   },
   "fam-sanchez": {
-    name: "Fam. Sánchez",
+    name: "Familia Sánchez",
     members: [
       "John",
       "Dana",
     ],
   },
-  "fam-ramírez": {
-    name: "Fam. Ramírez",
+  "fam-ramirez": {
+    name: "Familia Ramírez",
     members: [
       "Sergio",
       "Dafne",
+      "Paulo"
     ],
   },
-  "fam-de la fuente": {
-    name: "Fam. De la Fuente",
+  "fam-de-la-fuente": {
+    name: "Familia De la Fuente",
     members: [
-      "Jime",
+      "Jaime",
       "Gladys",
     ],
   },
   "fam-pereira": {
-    name: "Fam. Pereira",
+    name: "Familia Pereira",
     members: [
       "Bryan",
       "Gis",
     ],
   },
   "fam-bracamontes": {
-    name: "Fam. Bracamontes",
+    name: "Familia Bracamontes",
     members: [
       "Carlos",
       "Ana",
     ],
   },
   "fam-tellez": {
-    name: "Fam. Tellez",
+    name: "Familia Tellez",
     members: [
       "Armando",
       "Mylene",
     ],
   },
   "fam-belardinelli": {
-    name: "Fam. Belardinelli",
+    name: "Familia Belardinelli",
     members: [
       "Iván",
       "Grace",
+      "Tomy"
     ],
   },
-  "fam-garcía-reza": {
-    name: "Fam. García",
+  "fam-garcia-reza": {
+    name: "Familia García Reza",
     members: [
-      "Oscar",
+      "Óscar",
       "Denisse",
       "Sofi",
     ],
   },
   "fam-serdan": {
-    name: "Fam. Serdan",
+    name: "Familia Serdán",
     members: [
       "Tania",
       "Aquiles",
@@ -253,7 +254,7 @@ export const GUESTS = {
     ],
   },
   "gonzalo-hannia": {
-    name: "Gonzálo de la Vega, Hannia Islas",
+    name: "Gonzálo de la Vega y Hannia Islas",
     members: [
       "Gonzálo",
       "Hannia",
@@ -272,7 +273,7 @@ export const GUESTS = {
       "Xime",
     ],
   },
-  "abraham-guzman": {
+  "primary-guzman": {
     name: "Abraham Guzmán",
     members: [
       "Abraham",
@@ -303,14 +304,14 @@ export const GUESTS = {
     ],
   },
   "fam-mendoza-baglietto": {
-    name: "Fam. Mendoza Baglietto",
+    name: "Familia Mendoza Baglietto",
     members: [
       "Daniel",
       "Ximena",
     ],
   },
   "fam-mendoza": {
-    name: "Fam. Mendoza",
+    name: "Familia Mendoza",
     members: [
       "Alejandra",
       "Ana",
@@ -401,11 +402,20 @@ export const GUESTS = {
       "Cristóbal",
     ],
   },
-
   "miriam-luis": {
     name: "Familia Hernández",
     members: [
-      "Cristóbal",
+      "Miriam",
+      "Luis"
+    ],
+  },
+  "fam-suarez": {
+    name: "Familia Suárez",
+    members: [
+      "Jaime",
+      "Lety",
+      "Xime",
+      "Silvana"
     ],
   },
 

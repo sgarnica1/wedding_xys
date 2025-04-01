@@ -9,15 +9,15 @@ interface InviteCardProps {
 const InviteCard = ({ familyKey, familyName, familyMembers }: InviteCardProps) => {
   return (
     <div className='flex flex-col justify-center items-start mt-14 md:mt-20 mb-8 md:mb-10 p-4 md:p-5 bg-bg-primary shadow-2xl rounded-md mx-auto max-w-md w-full'>
-      <h2 className='text-3xl md:text-4xl font-abraham'>{familyName}</h2>
+      <h2 className='text-3xl md:text-4xl font-primary'>{familyName}</h2>
       <div className="relative w-full my-4 md:my-6">
         <div className="absolute left-0 right-0 h-px bg-secondary opacity-70"></div>
       </div>
       {familyMembers && familyMembers.length > 0 &&
         (
-          <div className='text-secondary text-base md:text-lg mb-8'>
+          <div className='text-secondary text-base md:text-lg mb-12'>
             {familyMembers.map((member, index) => (
-              <span key={index}>{`${member}${index === familyMembers.length - 1 ? "." : ", "}`}</span>
+              <span key={index}>{`${index === familyMembers.length - 1 ? "y " : ""}${member}${index >= familyMembers.length - 2 ? " " : ", "}`}</span>
             ))}
           </div>
         )}
@@ -27,8 +27,8 @@ const InviteCard = ({ familyKey, familyName, familyMembers }: InviteCardProps) =
       >
         Confirmar asistencia
       </Link>
-      <p className='text-secondary text-xs md:text-sm mt-4 text-center'>
-        Por favor, confirma antes del 13. 06. 2025
+      <p className='text-secondary text-md md:text-sm mt-4'>
+        Por favor, confirma antes del <br /> 13. 06. 2025
       </p>
     </div>
   )

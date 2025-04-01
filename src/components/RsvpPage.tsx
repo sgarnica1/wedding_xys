@@ -14,7 +14,7 @@ const RsvpPage: React.FC = () => {
   return (
     <div className='flex flex-col justify-center items-center py-20 w-full min-h-screen bg-bg-primary'>
       <div className='flex flex-col justify-center items-center max-w-md w-full px-6'>
-        <h2 className='font-abraham text-6xl uppercase mb-3'>RSVP</h2>
+        <h2 className='font-primary text-6xl uppercase mb-3'>RSVP</h2>
         {(!familyKey || !family) && (
           <p className='text-xl md:text-2xl text-center text-secondary mb-6'>Familia no encontrada.</p>
         )}
