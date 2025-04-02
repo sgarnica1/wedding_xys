@@ -434,5 +434,13 @@ export const GUESTS = {
       "Sebas",
     ],
   },
+  "fam-guerrero": {
+    name: "Familia Guerrero",
+    members: [
+      "Esteban",
+      "Ana",
+      "Ricky"
+    ]
+  }
 
 }
