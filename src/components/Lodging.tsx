@@ -2,7 +2,7 @@
 const Lodging = () => {
   return (
     <div className='flex flex-col justify-center items-center py-20 w-full bg-bg-primary'>
-      <div className='flex flex-col justify-center items-center w-full px-6'>
+      <div className='flex flex-col justify-center items-center w-full px-6 max-w-md '>
         <h2 className='font-primary text-6xl uppercase mb-3'>Hospedaje</h2>
         <p className='text-xl md:text-2xl text-center text-secondary mb-6'>Casa Conejos / Hacienda de las Adelitas</p>
         <p className='font-secondary mb-10 text-xl font-bold'>Desde $2,500 por noche.</p>
