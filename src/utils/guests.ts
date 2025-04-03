@@ -1,4 +1,6 @@
-export const GUESTS = {
+import { GuestsType } from './types'
+
+export const GUESTS: GuestsType = {
   "fam-maranon": {
     name: "Familia Marañon Romero",
     members: [
@@ -465,7 +467,7 @@ export const GUESTS = {
   },
   "fam-martinez": {
     name: "Familia Martínez",
-    mambers: [
+    members: [
       "Martha",
       "Ale",
       "Tani"
@@ -488,7 +490,7 @@ export const GUESTS = {
     ]
   },
   "vio-boby": {
-    fam: "Violeta y Roberto",
+    name: "Violeta y Roberto",
     members: [
       "Vio",
       "Boby"
@@ -515,4 +517,4 @@ export const GUESTS = {
       "Karla"
     ]
   },
-}
+};
