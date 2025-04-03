@@ -441,6 +441,78 @@ export const GUESTS = {
       "Ana",
       "Ricky"
     ]
-  }
-
+  },
+  "fam-arellano": {
+    name: "Familia Arellano",
+    members: [
+      "Laura",
+      "Pepe"
+    ]
+  },
+  "fam-de-la-torre": {
+    name: "Familia de la Torre",
+    members: [
+      "Alex",
+      "Angie"
+    ]
+  },
+  "fam-visairo": {
+    name: "Familia Visairo",
+    members: [
+      "Horacio",
+      "Ale"
+    ]
+  },
+  "fam-martinez": {
+    name: "Familia Martínez",
+    mambers: [
+      "Martha",
+      "Ale",
+      "Tani"
+    ]
+  },
+  "fam-castillo": {
+    name: "Familia Castillo",
+    members: [
+      "Jorge",
+      "Yoz"
+    ]
+  },
+  "fam-heredia": {
+    name: "Familia Heredia",
+    members: [
+      "Ceci",
+      "Sergio",
+      "Alan",
+      "Juan Pablo"
+    ]
+  },
+  "vio-boby": {
+    fam: "Violeta y Roberto",
+    members: [
+      "Vio",
+      "Boby"
+    ]
+  },
+  "lalo-moni": {
+    name: "Familia Gayosso",
+    members: [
+      "Lalo",
+      "Moni"
+    ]
+  },
+  "ruben-elenita": {
+    name: "Familia Gayosso",
+    members: [
+      "Rubén",
+      "Elenita"
+    ]
+  },
+  "roger-karla": {
+    name: "Roger y Karla",
+    members: [
+      "Roger",
+      "Karla"
+    ]
+  },
 }
