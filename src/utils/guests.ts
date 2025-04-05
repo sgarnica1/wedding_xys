@@ -480,8 +480,8 @@ export const GUESTS: GuestsType = {
       "Yoz"
     ]
   },
-  "fam-heredia": {
-    name: "Familia Heredia",
+  "fam-ceci": {
+    name: "Ceci y Familia",
     members: [
       "Ceci",
       "Sergio",
