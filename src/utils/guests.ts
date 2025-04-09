@@ -183,7 +183,8 @@ export const GUESTS: GuestsType = {
     name: "Familia Ramírez",
     members: [
       "Sergio",
-      "Dafne",
+      "Daf",
+      "Nia",
       "Paulo"
     ],
   },
