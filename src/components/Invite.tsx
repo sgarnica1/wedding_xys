@@ -17,11 +17,11 @@ const Invite = () => {
   }
 
   return (
-    <section className='flex flex-col items-center justify-center bg-bg-primary py-12 md:py-20 px-4 mx-auto rounded-br-[16%]'>
-      <div className='flex flex-col justify-center items-start bg-bg-primary rounded-br-[16%] py-20 px-6 max-w-[500px]'>
+    <section className='flex flex-col items-center justify-center bg-bg-primary py-30 md:py-20 px-4 mx-auto rounded-br-[16%]'>
+      <div className='flex flex-col justify-center items-start bg-bg-primary rounded-br-[16%] max-w-[500px]'>
         <h2 className='text-[3rem] sm:text-6xl font-bold font-primary leading-[0.8] text-primary uppercase mb-6'>{familyName}</h2>
         <p className='text-primary font-secondary font-medium text-md md:text-sm mb-6'>
-          Por favor, confirma antes del 13 de junio del 2025
+          Por favor, confirma antes del 30 de junio del 2025
         </p>
         <Link
           to={`/rsvp/${familyKey}`}

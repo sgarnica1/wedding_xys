@@ -8,7 +8,7 @@ const Itinerary = () => {
 
   const ItineraryData = [
     {
-      title: 'Recepción + Bienvenida',
+      title: 'Recepción',
       time: '6:00 PM',
       icon: ChurchIcon
     },
@@ -37,11 +37,13 @@ const Itinerary = () => {
   return (
     <section className='flex flex-col justify-center items-center bg-white rounded-br-4xl py-20 px-6'>
       <div className='flex flex-col justify-center items-centermax-w-[500px] mx-auto'>
-        <h2 className='text-4xl sm:text-6xl font-bold font-primary leading-[0.8] text-secondary uppercase mb-12'>Itinerario</h2>
+        <h2 className='text-5xl sm:text-6xl font-bold font-primary leading-[0.8] text-secondary text-center uppercase mb-12'>Itinerario</h2>
         <div className='grid grid-cols-1 gap-8'>
           {ItineraryData.map((item, index) => (
-            <div key={index} className='flex items-center gap-6 sm:gap-10'>
-              <img src={item.icon} alt={item.title} className='w-12 h-12 mr-4' />
+            <div key={index} className='grid grid-cols-[30%_70%] gap-15 sm:gap-10'>
+              <div className='flex items-end w-full justify-end'>
+                <img src={item.icon} alt={item.title} className='w-12 h-12' />
+              </div>
               <div className='text-accent uppercase font-secondary flex flex-col justify-center'>
                 <p className='text-xl'>{item.time}</p>
                 <h3 className='text-lg text-secondary font-medium'>{item.title}</h3>
