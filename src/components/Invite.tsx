@@ -1,6 +1,4 @@
-import { useParams } from 'react-router-dom'
-import InviteCardImage from "../assets/images/invite_card.png"
-import InviteCard from './InviteCard'
+import { useParams, Link } from 'react-router-dom'
 import { GUESTS } from '../utils/guests'
 import { FamilyType, GuestsType } from '../utils/types'
 
@@ -11,26 +9,26 @@ const Invite = () => {
   if (!familyKey) return <></>
 
   const family: FamilyType = guests[familyKey]
+  const familyMembers = family.members || []
+  const familyName = family.name || ''
+
+  if (!familyName || familyMembers.length === 0) {
+    return <></>
+  }
 
   return (
-    <section className='bg-white py-12 md:py-20 px-4 md:px-6 flex flex-col items-center mx-auto pb-20'>
-      <div className='w-full max-w-md'>
-        <img
-          src={InviteCardImage}
-          alt="Invite Card Details"
-          className='w-full h-auto object-contain mb-6 md:mb-8'
-        />
-
-        <InviteCard
-          familyKey={familyKey}
-          familyName={family.name}
-          familyMembers={family.members}
-        />
-
-        <p className='text-secondary text-md mt-4 px-2'>
-          Hemos decidido que este evento sea <span className='text-primary uppercase font-bold'>sin niños</span>.
-          Esperamos esto no sea un impedimento para poder celebrar con nosotros.
+    <section className='flex flex-col items-center justify-center bg-bg-primary py-12 md:py-20 px-4 mx-auto rounded-br-[16%]'>
+      <div className='flex flex-col justify-center items-start bg-bg-primary rounded-br-[16%] py-20 px-6 max-w-[500px]'>
+        <h2 className='text-[3rem] sm:text-6xl font-bold font-primary leading-[0.8] text-primary uppercase mb-6'>{familyName}</h2>
+        <p className='text-primary font-secondary font-medium text-md md:text-sm mb-6'>
+          Por favor, confirma antes del 13 de junio del 2025
         </p>
+        <Link
+          to={`/rsvp/${familyKey}`}
+          className="flex justify-center items-center font-secondary text-accent text-lg py-3 px-4 md:px-5 md:text-base bg-button border-1 hover:bg-bg-primary hover:border-bg-secondary hover:text-white hover:cursor-pointer transition duration-300 rounded max-w-lg"
+        >
+          Confirmar asistencia
+        </Link>
       </div>
     </section>
   )

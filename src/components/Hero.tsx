@@ -1,28 +1,26 @@
-import Image from "../assets/images/sketch.png"
+import BackgroundCover from '../assets/images/cover.png'
 
 const Hero = () => {
   return (
-    <main className='flex flex-col justify-center items-center min-h-screen p-4'>
-      <div className="absolute top-0 right-0 flex items-end mr-4 md:mr-7">
-        <p className="transform -rotate-90 uppercase -mr-8 mb-12 md:-mr-10 md:mb-11 text-xs sm:text-sm md:text-base">Save the date</p>
-        <div className="h-36 md:h-40 w-0.5 bg-black"></div>
-      </div>
-      <div className='mt-14 md:mt-20 max-w-full'>
-        <img src={Image} alt="Trees and Lake Wedding" className="max-w-full h-auto" />
-      </div>
-      <h1 className='font-primary text-center uppercase text-7xl sm:text-5xl md:text-6xl lg:text-8xl flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-6 md:mb-10'>
-        Lore
-        <span className='font-abhaya font-normal text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-1 md:mt-3'> &</span>
-        Sergio
+    <main
+      className='flex flex-col justify-center items-between min-h-[500px] h-[500px] max-h-[500px] p-4 bg-cover bg-center bg-no-repeat relative'
+      style={{ backgroundImage: `url(${BackgroundCover})` }}
+    >
+      <div className='absolute inset-0 bg-black/40'></div>
+      <h1 className='font-primary font-medium text-center text-[#DCD7B7] uppercase text-5xl sm:text-5xl md:text-6xl lg:text-8xl flex flex-wrap justify-center items-center gap-2 md:gap-4 mb-6 md:mb-10 relative z-10'>
+        <p className='flex items-center'>
+          Pau
+          <span className='w-[50px] h-[1px] bg-[#DCD7B7] self-center'></span>
+        </p>
+        <span className='font-primary font-normal text-4xl sm:text-4xl md:text-4xl lg:text-5xl mt-1 md:mt-3'> &</span>
+        Kevin
       </h1>
-      <div className='flex flex-col justify-center items-center text-secondary font-secondary text-xl md:text-2xl text-center font-medium'>
-        <span>
-          Tequisquiapan, Querétaro.
-        </span>
-        <span>
-          13. 09. 2025
-        </span>
-      </div>
+      <p className='text-primary font-secondary text-xl md:text-2xl text-center font-medium relative z-10'>
+        San Miguel de Allende
+      </p>
+      <p className='text-primary font-secondary text-xl md:text-2xl text-center font-medium z-10 absolute bottom-10 left-0 right-0'>
+        30 . 08 . 2025
+      </p>
     </main>
   )
 }

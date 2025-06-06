@@ -1,17 +1,56 @@
-import ItineraryImage from "../assets/images/itinerary.png"
+import ChurchIcon from '../assets/icons/church.svg';
+import StarsIcon from '../assets/icons/stars.svg';
+import DishesIcon from '../assets/icons/dishes.svg';
+import DanceIcon from '../assets/icons/dance.svg';
+import ClockIcon from '../assets/icons/clock.svg';
 
 const Itinerary = () => {
+
+  const ItineraryData = [
+    {
+      title: 'Recepción + Bienvenida',
+      time: '6:00 PM',
+      icon: ChurchIcon
+    },
+    {
+      title: 'Ceremonia',
+      time: '6:20 PM',
+      icon: StarsIcon
+    },
+    {
+      title: 'Cena',
+      time: '8:00 PM',
+      icon: DishesIcon
+    },
+    {
+      title: 'Baile',
+      time: '10:30 PM',
+      icon: DanceIcon
+    },
+    {
+      title: 'Bye, Bye',
+      time: '1:00 AM',
+      icon: ClockIcon
+    },
+  ]
+
   return (
-    <div className="w-full flex justify-center items-center min-h-screen bg-accent">
-      <div className="w-full max-w-md mx-auto">
-        {/* Image container with responsive width */}
-        <img
-          src={ItineraryImage}
-          alt="Itinerary Image"
-          className="w-full h-auto object-contain"
-        />
+    <section className='flex flex-col justify-center items-center bg-white rounded-br-4xl py-20 px-6'>
+      <div className='flex flex-col justify-center items-centermax-w-[500px] mx-auto'>
+        <h2 className='text-4xl sm:text-6xl font-bold font-primary leading-[0.8] text-secondary uppercase mb-12'>Itinerario</h2>
+        <div className='grid grid-cols-1 gap-8'>
+          {ItineraryData.map((item, index) => (
+            <div key={index} className='flex items-center gap-6 sm:gap-10'>
+              <img src={item.icon} alt={item.title} className='w-12 h-12 mr-4' />
+              <div className='text-accent uppercase font-secondary flex flex-col justify-center'>
+                <p className='text-xl'>{item.time}</p>
+                <h3 className='text-lg text-secondary font-medium'>{item.title}</h3>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   )
 }
 

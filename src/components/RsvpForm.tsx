@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { collection, addDoc, getDocs, query, where, updateDoc, doc } from 'firebase/firestore';
-import { db } from '../services/firebase';
+import { db, collectionName } from '../services/firebase';
 import ErrorMessage from './ErrorMessage';
 import { FamilyType } from '../utils/types';
 
@@ -45,7 +45,7 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
     setLoading(true);
     try {
       // Create a query to find RSVP with matching id
-      const rsvpQuery = query(collection(db, 'rsvps'), where('rsvpData.id', '==', familyKey));
+      const rsvpQuery = query(collection(db, collectionName), where('rsvpData.id', '==', familyKey));
       const querySnapshot = await getDocs(rsvpQuery);
 
       if (!querySnapshot.empty) {
@@ -108,10 +108,10 @@ const RsvpForm: React.FC<RsvpProps> = ({ family, familyKey }: RsvpProps) => {
 
       if (isUpdating && existingRsvpId) {
         // Update existing document
-        await updateDoc(doc(db, 'rsvps', existingRsvpId), data);
+        await updateDoc(doc(db, collectionName, existingRsvpId), data);
       } else {
         // Create new document
-        await addDoc(collection(db, 'rsvps'), data);
+        await addDoc(collection(db, collectionName), data);
       }
 
       setSuccess(true);

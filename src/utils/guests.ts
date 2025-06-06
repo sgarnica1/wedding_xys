@@ -1,521 +1,284 @@
 import { GuestsType } from './types'
 
 export const GUESTS: GuestsType = {
-  "fam-maranon": {
-    name: "Familia Marañon Romero",
-    members: [
-      "Eleazar",
-      "Raquel",
-      "Larissa",
-      "Samuel",
-    ],
+  "david-carmen-mayra": {
+    name: "David, Carmen & Mayra",
+    members: ["David", "Carmen", "Mayra"],
   },
-  "fam-garnica": {
-    name: "Familia Garnica González",
-    members: [
-      "Sergio",
-      "Tere",
-      "Emilio",
-      "Diego",
-    ],
+  "david-diana": {
+    name: "David & Diana",
+    members: ["David", "Diana"],
   },
-  "fam-romero": {
-    name: "Familia Romero Cedillo",
-    members: [
-      "Gerardo",
-      "Gabriela",
-      "Carolina",
-      "Marcela",
-    ],
+  "tia-lupe": {
+    name: "Tia Lupe",
+    members: ["Tia Lupe"],
   },
-  "fam-velasco": {
-    name: "Familia Velasco Romero",
-    members: [
-      "Hugo",
-      "Claudia",
-      "Erick",
-    ],
+  "jessie-diego-hugo": {
+    name: "Jessie, Diego & Hugo",
+    members: ["Jessie", "Diego", "Hugo"],
   },
-  "patricia-romero": {
-    name: "Patricia",
-    members: [
-      "Paty",
-    ],
+  "jahzel": {
+    name: "Jahzel",
+    members: ["Jahzel"],
   },
-  "fam-maranon-castro": {
-    name: "Familia Marañon Castro",
-    members: [
-      "Eleazar",
-      "Mary",
-      "Estefanía",
-      "Sofía",
-      "Grace",
-      "Mary Fer",
-    ],
+  "cynthia": {
+    name: "Cynthia",
+    members: ["Cynthia"],
   },
-  "fam-maranon-heras": {
-    name: "Familia Marañon Heras",
-    members: [
-      "Edgar",
-      "Nora",
-      "Joyce",
-    ],
+  "sophie-jose": {
+    name: "Sophie & Jose",
+    members: ["Sophie", "Jose"],
   },
-  "fam-hefflin": {
-    name: "Familia Hefflin Marañon",
-    members: [
-      "Chris",
-      "Annie",
-    ],
+  "rene-norma-emiliano": {
+    name: "Rene, Norma & Emiliano",
+    members: ["Rene", "Norma", "Emiliano"],
   },
-  "mami-tere": {
-    name: "Mami Tere",
-    members: ["Mami Tere"],
+  "alexis-marianne": {
+    name: "Alexis & Marianne",
+    members: ["Alexis", "Marianne"],
   },
-  "fam-gonzalez-morales": {
-    name: "Familia González  Morales",
-    members: [
-      "Jorge",
-      "Bety",
-      "Ana Pau",
-      "Isabel",
-      "Teresa",
-    ],
+  "jose-luis-ysabel": {
+    name: "Jose Luis & Ysabel",
+    members: ["Jose Luis", "Ysabel"],
   },
-  "fam-garcia-gonzalez": {
-    name: "Familia Garcia González",
-    members: [
-      "Moni",
-      "Manuel",
-    ],
+  "christian": {
+    name: "Christian",
+    members: ["Christian"],
   },
-  "daniela-garcia": {
-    name: "Daniela García",
-    members: [
-      "Dani",
-    ],
+  "jorge-brianda": {
+    name: "Jorge & Brianda",
+    members: ["Jorge", "Brianda"],
   },
-  "antonio-garcia": {
-    name: "Antonio García",
-    members: [
-      "Toño",
-    ],
+  "jose-luis-andrea": {
+    name: "Jose Luis & Andrea",
+    members: ["Jose Luis", "Andrea"],
   },
-  "adriana-gonzalez": {
-    name: "Adriana González",
-    members: [
-      "Adriana",
-    ],
+  "eric-esme": {
+    name: "Eric & Esme",
+    members: ["Eric", "Esme"],
   },
-  "luis-daniel-cejas": {
-    name: "Luis Daniel Cejas",
-    members: [
-      "Luigi",
-    ],
+  "carmen-morena-mayra": {
+    name: "Carmen, Morena & Mayra",
+    members: ["Carmen", "Morena", "Mayra"],
   },
-  "lety-garnica": {
-    name: "Lety Garnica",
-    members: [
-      "Lety",
-    ],
+  "ramon-lety": {
+    name: "Ramon & Lety",
+    members: ["Ramon", "Lety"],
   },
-  "beto-isa": {
-    name: "Isa y Beto",
-    members: [
-      "Isa",
-      "Beto",
-    ],
+  "sergio-lore": {
+    name: "Sergio & Lore",
+    members: ["Sergio", "Lore"],
   },
-  "fam-vidal": {
-    name: "Familia Vidal Mejorada",
-    members: [
-      "Fer",
-      "Gaby",
-    ],
+  "lari": {
+    name: "Lari",
+    members: ["Lari"],
   },
-  "abo": {
-    name: "Sergio Garnica Rosas",
-    members: [
-      "Abo",
-    ],
+  "eleazar-raquel": {
+    name: "Eleazar & Raquel",
+    members: ["Eleazar", "Raquel"],
   },
-  "tio-luis": {
-    name: "Luis Hernández",
-    members: [
-      "Luis",
-    ],
+  "samuel-ximena": {
+    name: "Samuel & Ximena",
+    members: ["Samuel", "Ximena"],
   },
-  "luis-hernandez": {
-    name: "Luis Hernández",
-    members: [
-      "Luis",
-    ],
+  "aaron-fabi": {
+    name: "Aaron & Fabi",
+    members: ["Aaron", "Fabi"],
   },
-  "mirelle-hernandez": {
-    name: "Mirelle Hernández",
-    members: [
-      "Meme",
-    ],
+  "cristobal": {
+    name: "Cristobal",
+    members: ["Cristobal"],
   },
-  "giselle-hernandez": {
-    name: "Giselle y José Ramón",
-    members: [
-      "Gigi",
-      "José Ramón",
-    ],
+  "ceci": {
+    name: "Ceci",
+    members: ["Ceci"],
   },
-  "fam-issa": {
-    name: "Familia Issa",
-    members: [
-      "Bai",
-      "Mich",
-    ],
+  "matias": {
+    name: "Matias",
+    members: ["Matias"],
   },
-  "fam-sanchez": {
-    name: "Familia Sánchez",
-    members: [
-      "John",
-      "Dana",
-      "Emma"
-    ],
+  "karlette-jimmy": {
+    name: "Karlette & Jimmy",
+    members: ["Karlette", "Jimmy"],
   },
-  "fam-ramirez": {
-    name: "Familia Ramírez",
-    members: [
-      "Sergio",
-      "Daf",
-      "Nia",
-      "Paulo"
-    ],
-  },
-  "fam-de-la-fuente": {
-    name: "Familia De la Fuente",
-    members: [
-      "Jaime",
-      "Gladys",
-    ],
-  },
-  "fam-pereira": {
-    name: "Familia Pereira",
-    members: [
-      "Wero",
-      "Gis",
-    ],
-  },
-  "fam-bracamontes": {
-    name: "Familia Bracamontes",
-    members: [
-      "Carlos",
-      "Ana",
-    ],
-  },
-  "fam-tellez": {
-    name: "Familia Tellez",
-    members: [
-      "Armando",
-      "Mylene",
-    ],
-  },
-  "fam-belardinelli": {
-    name: "Familia Belardinelli",
-    members: [
-      "Iván",
-      "Grace",
-      "Tomy"
-    ],
-  },
-  "fam-garcia-reza": {
-    name: "Familia García Reza",
-    members: [
-      "Óscar",
-      "Denisse",
-      "Sofi",
-    ],
-  },
-  "fam-serdan": {
-    name: "Familia Serdán",
-    members: [
-      "Tania",
-      "Aquiles",
-    ],
-  },
-  "kevin-pau": {
-    name: "Kevin de la Puente y Pau Guerrero",
-    members: [
-      "Kevin",
-      "Pau"
-    ],
-  },
-  "ceci-reyes": {
-    name: "Cecilia Reyes",
-    members: [
-      "Ceci",
-    ],
+  "alice": {
+    name: "Alice",
+    members: ["Alice"],
   },
   "gonzalo-hannia": {
-    name: "Gonzálo de la Vega y Hannia Islas",
-    members: [
-      "Gonzálo",
-      "Hannia",
-    ],
+    name: "Gonzalo & Hannia",
+    members: ["Gonzalo", "Hannia"],
   },
-  "nona-chivis": {
-    name: "Silvia & Silvia",
-    members: [
-      "Nona",
-      "Chivis",
-    ],
+  "brayan-gis": {
+    name: "Brayan & Gis",
+    members: ["Brayan", "Gis"],
   },
-  "ximena-mejía": {
-    name: "Ximena Mejía",
-    members: [
-      "Xime",
-    ],
+  "armando-mylene": {
+    name: "Armando & Mylene",
+    members: ["Armando", "Mylene"],
   },
-  "abraham-guzman": {
-    name: "Abraham Guzmán",
-    members: [
-      "Abraham",
-    ],
+  "sergio-dafne": {
+    name: "Sergio & Dafne",
+    members: ["Sergio", "Dafne"],
   },
-  "luisfer-serna": {
-    name: "Luis Fernando Serna",
-    members: [
-      "Luis Fer",
-    ],
+  "fernando-caro": {
+    name: "Fernando & Caro",
+    members: ["Fernando", "Caro"],
   },
-  "fabiola-ramirez": {
-    name: "Fabiola Ramírez",
-    members: [
-      "Faby",
-    ],
+  "daniel-denisse": {
+    name: "Daniel & Denisse",
+    members: ["Daniel", "Denisse"],
   },
-  "carolina-serrano": {
-    name: "Carolina Serrano",
-    members: [
-      "Caro",
-    ],
+  "carlos-ana": {
+    name: "Carlos & Ana",
+    members: ["Carlos", "Ana"],
   },
-  "andres-barraza": {
-    name: "Andrés Barraza",
-    members: [
-      "Andrés",
-    ],
+  "john-dana": {
+    name: "John & Dana",
+    members: ["John", "Dana"],
   },
-  "fam-mendoza-baglietto": {
-    name: "Familia Mendoza Baglietto",
-    members: [
-      "Daniel",
-      "Ximena",
-    ],
+  "pablo-mich": {
+    name: "Pablo & Mich",
+    members: ["Pablo", "Mich"],
   },
-  "fam-mendoza": {
-    name: "Familia Mendoza",
-    members: [
-      "Alejandra",
-      "Ana",
-      "Itzel",
-    ],
+  "leo-irma": {
+    name: "Leo & Irma",
+    members: ["Leo", "Irma"],
   },
-  "sebastian-flores": {
-    name: "Sebastián Flores",
-    members: [
-      "Sebastián",
-    ],
+  "ricardo-miriam": {
+    name: "Ricardo & Miriam",
+    members: ["Ricardo", "Miriam"],
   },
-  "damariz-licea": {
-    name: "Damariz Licea",
-    members: [
-      "Dama",
-    ],
+  "lalo-vero": {
+    name: "Lalo & Vero",
+    members: ["Lalo", "Vero"],
   },
-  "david-langarica": {
-    name: "David Langarica",
-    members: [
-      "David",
-    ],
+  "luis-karen": {
+    name: "Luis & Karen",
+    members: ["Luis", "Karen"],
   },
-  "carlos-salguero": {
-    name: "Carlos Salguero",
-    members: [
-      "Carlos",
-    ],
+  "cindy-tato": {
+    name: "Cindy & Tato",
+    members: ["Cindy", "Tato"],
   },
-  "daniel-cajas": {
-    name: "Daniel Cajas",
-    members: [
-      "Daniel",
-    ],
+  "sandra-cesar": {
+    name: "Sandra & Cesar",
+    members: ["Sandra", "Cesar"],
   },
-  "karen-espino": {
-    name: "Karen Espino",
-    members: [
-      "Karen",
-    ],
+  "raquel-charlie-ayrton-michelle": {
+    name: "Raquel, Charlie, Ayrton & Michelle",
+    members: ["Raquel", "Charlie", "Ayrton", "Michelle"],
   },
-  "diego-romo": {
-    name: "Diego Romo",
-    members: [
-      "Diego",
-    ],
+  "mikey": {
+    name: "Mikey",
+    members: ["Mikey"],
   },
-  "marco-esquivel": {
-    name: "Marco Esquivel",
-    members: [
-      "Marco",
-    ],
+  "hannah-ivan": {
+    name: "Hannah & Ivan",
+    members: ["Hannah", "Ivan"],
   },
-  "luis-gerardo": {
-    name: "Luis Gerardo Hernández",
-    members: [
-      "Luis Gerardo",
-    ],
+  "melody-corey": {
+    name: "Melody & Corey",
+    members: ["Melody", "Corey"],
   },
-  "emilio-enriquez": {
-    name: "Emilio Enríquez",
-    members: [
-      "Emi",
-    ],
+  "paul-lydia": {
+    name: "Paul & Lydia",
+    members: ["Paul", "Lydia"],
   },
-  "yael-courtney": {
-    name: "Yael Courtney",
-    members: [
-      "Yael",
-    ],
+  "joy-mark-sam": {
+    name: "Joy, Mark & Sam",
+    members: ["Joy", "Mark", "Sam"],
   },
-  "andrea-tejeda": {
-    name: "Andrea Tejeda",
-    members: [
-      "Andy",
-    ],
+  "sarah": {
+    name: "Sarah",
+    members: ["Sarah"],
   },
-  "vale-salas": {
-    name: "Valeria Salas",
-    members: [
-      "Vale",
-    ],
+  "mike-jessie": {
+    name: "Mike & Jessie",
+    members: ["Mike", "Jessie"],
   },
-  "victor-ramirez": {
-    name: "Víctor Ramírez",
-    members: [
-      "Víctor",
-    ],
+  "danny-nancy": {
+    name: "Danny & Nancy",
+    members: ["Danny", "Nancy"],
   },
-  "marcela-manzur": {
-    name: "Marcela Manzur",
-    members: [
-      "Marcela",
-    ],
+  "abue": {
+    name: "Abue",
+    members: ["Abue"],
   },
-  "cristobal-macias": {
-    name: "Cristóbal Macías",
-    members: [
-      "Cristóbal",
-    ],
+  "tia-yaya-tio-bilo-andrea-aranza": {
+    name: "Tia Yaya, Tio Bilo, Andrea & Aranza",
+    members: ["Tia Yaya", "Tio Bilo", "Andrea", "Aranza"],
   },
-  "miriam-luis": {
-    name: "Familia Hernández",
-    members: [
-      "Miriam",
-      "Luis"
-    ],
+  "bai-michel": {
+    name: "Bai & Michel",
+    members: ["Bai", "Michel"],
   },
-  "fam-suarez": {
-    name: "Familia Suárez",
-    members: [
-      "Jaime",
-      "Lety",
-      "Xime",
-      "Silvana"
-    ],
+  "david-marilu": {
+    name: "David & Marilu",
+    members: ["David", "Marilu"],
   },
-  "fam-montes": {
-    name: "Familia Montés",
-    members: [
-      "Evita",
-      "Horacio",
-      "Sebas",
-    ],
+  "ivan-grace": {
+    name: "Ivan & Grace",
+    members: ["Ivan", "Grace"],
   },
-  "fam-guerrero": {
-    name: "Familia Guerrero",
-    members: [
-      "Esteban",
-      "Ana",
-      "Ricky"
-    ]
+  "beto-becky-ashley-megan": {
+    name: "Beto, Becky, Ashley & Megan",
+    members: ["Beto", "Becky", "Ashley", "Megan"],
   },
-  "fam-arellano": {
-    name: "Familia Arellano",
-    members: [
-      "Laura",
-      "Pepe"
-    ]
+  "ramses-daniela": {
+    name: "Ramses & Daniela",
+    members: ["Ramses", "Daniela"],
   },
-  "fam-de-la-torre": {
-    name: "Familia de la Torre",
-    members: [
-      "Alex",
-      "Angie"
-    ]
+  "isaac-iliana": {
+    name: "Isaac & Iliana",
+    members: ["Isaac", "Iliana"],
   },
-  "fam-visairo": {
-    name: "Familia Visairo",
-    members: [
-      "Horacio",
-      "Ale"
-    ]
+  "rodolfo": {
+    name: "Rodolfo",
+    members: ["Rodolfo"],
   },
-  "fam-martinez": {
-    name: "Familia Martínez",
-    members: [
-      "Martha",
-      "Ale",
-      "Tani"
-    ]
+  "mich-saad": {
+    name: "Mich & Saad",
+    members: ["Mich", "Saad"],
   },
-  "fam-castillo": {
-    name: "Familia Castillo",
-    members: [
-      "Jorge",
-      "Yoz"
-    ]
+  "frank": {
+    name: "Frank",
+    members: ["Frank"],
   },
-  "fam-ceci": {
-    name: "Ceci y Familia",
-    members: [
-      "Ceci",
-      "Sergio",
-      "Alan",
-      "Juan Pablo"
-    ]
+  "cami-juanito": {
+    name: "Cami & Juanito",
+    members: ["Cami", "Juanito"],
   },
-  "vio-boby": {
-    name: "Violeta y Roberto",
-    members: [
-      "Vio",
-      "Boby"
-    ]
+  "marek": {
+    name: "Marek",
+    members: ["Marek"],
   },
-  "lalo-moni": {
-    name: "Familia Gayosso",
-    members: [
-      "Lalo",
-      "Moni"
-    ]
+  "glenn": {
+    name: "Glenn",
+    members: ["Glenn"],
   },
-  "ruben-elenita": {
-    name: "Familia Gayosso",
-    members: [
-      "Rubén",
-      "Elenita"
-    ]
+  "mauricio-judith": {
+    name: "Mauricio & Judith",
+    members: ["Mauricio", "Judith"],
   },
-  "roger-karla": {
-    name: "Roger y Karla",
-    members: [
-      "Roger",
-      "Karla"
-    ]
+  "martha": {
+    name: "Martha",
+    members: ["Martha"],
+  },
+  "matt-layla": {
+    name: "Matt & Layla",
+    members: ["Matt", "Layla"],
+  },
+  "emanuel": {
+    name: "Emanuel",
+    members: ["Emanuel"],
+  },
+  "rebeca": {
+    name: "Rebeca",
+    members: ["Rebeca"],
+  },
+  "margarita-pablo": {
+    name: "Margarita & Pablo",
+    members: ["Margarita", "Pablo"],
   },
 };

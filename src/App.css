@@ -1,29 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Numans&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Numans&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
 @import 'tailwindcss';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: 'AbrahamLincoln';
-  src: url('/fonts/AbrahamLincoln.ttf') format('truetype');
-  font-weight: normal;
-}
-
 @theme {
-  --font-primary: 'AbrahamLincoln', sans-serif;
-  --font-secondary: 'Josefin Slab', serif;
-  --font-abhaya: 'Abhaya Libre', serif;
+  --font-primary: 'Cormorant Garamond', sans-serif;
+  --font-secondary: 'Quattrocento', serif;
 
-  --color-primary: #414141;
-  --color-secondary: #727272;
-  --color-accent: #5c724a;
+  --color-primary: #f6f5ef;
+  --color-secondary: #413d3a;
+  --color-accent: #5f7d97;
 
-  --color-bg-primary: #f6f5ef;
-  --color-bg-secondary: #f0f0f0;
+  --color-bg-primary: #5f7d97;
+  --color-bg-secondary: #f6f5ef;
 
-  --color-button: #dcd7b7;
+  --color-button: #f6f5ef;
 }
 
 #root {
@@ -31,13 +24,13 @@
   padding: 0 auto;
   box-sizing: border-box;
 
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Cormorant Garamond', serif;
   line-height: 1.5;
   font-weight: 600;
 
   color-scheme: light dark;
   color: #414141;
-  background-color: #f6f5ef !important;
+  background-color: white !important;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

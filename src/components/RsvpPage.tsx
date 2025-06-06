@@ -12,7 +12,7 @@ const RsvpPage: React.FC = () => {
   const family = familyKey ? guests[familyKey] : null
 
   return (
-    <div className='flex flex-col justify-center items-center py-20 w-full min-h-screen bg-bg-primary'>
+    <div className='flex flex-col justify-center items-center py-20 w-full min-h-screen bg-bg-secondary'>
       <div className='flex flex-col justify-center items-center max-w-md w-full px-6'>
         <h2 className='font-primary text-6xl uppercase mb-3'>RSVP</h2>
         {(!familyKey || !family) && (

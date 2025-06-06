@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom'
 import { GUESTS } from '../utils/guests'
 import Hero from '../components/Hero'
+import SaveTheDate from '../components/SaveTheDate'
 import Invite from '../components/Invite'
 import Itinerary from '../components/Itinerary'
 import DressCode from '../components/DressCode'
@@ -20,8 +21,9 @@ const Home = () => {
     )
 
   return (
-    <div className='bg-[#f6f5ef]'>
+    <div>
       <Hero />
+      <SaveTheDate />
       <Invite />
       <Itinerary />
       <DressCode />
