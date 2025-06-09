@@ -8,7 +8,7 @@ const Gifts = () => {
         <span className='h-20 w-[1px] bg-primary'></span>
         <p className='font-secondary font-medium text-xl uppercase mt-5 text-primary w-3/4'>Agradecemos su generosidad y apoyo en esta nueva etapa.</p>
         <p className='font-secondary font-bold text-2xl uppercase text-primary w-3/4 mt-10'>Liverpool</p>
-        <p className='font-secondary font-medium text-xl uppercase text-primary w-3/4 mt-3 mb-10'>No. de Evento: <span className='font-bold'>51643735</span></p>
+        <p className='font-secondary font-medium text-xl uppercase text-primary w-3/4 mt-3 mb-10'>No. de Evento: <span className='font-bold'>51684731</span></p>
         <Link
           to={`https://mesaderegalos.liverpool.com.mx/milistaderegalos/51684731`}
           className="flex justify-center items-center font-secondary text-accent text-lg py-3 px-4 md:px-5 md:text-base bg-button border-1 hover:bg-bg-primary hover:border-bg-secondary hover:text-white hover:cursor-pointer transition duration-300 rounded-xl max-w-lg w-xs"
