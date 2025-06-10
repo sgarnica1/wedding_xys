@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { FamilyType } from '../../utils/types';
 import StatusPill from './StatusPill';
 
@@ -21,6 +22,8 @@ interface FamilyListProps {
 }
 
 const FamilyList = ({ families, rsvpData }: FamilyListProps) => {
+    const [statusFilter, setStatusFilter] = useState<'all' | 'assists' | 'no assist' | 'pending'>('all');
+
     const getMemberStatus = (familyId: string, memberName: string): 'assists' | 'no assist' | 'pending' => {
         const rsvp = rsvpData.get(familyId);
         if (!rsvp) return 'pending';
@@ -48,10 +51,59 @@ const FamilyList = ({ families, rsvpData }: FamilyListProps) => {
         return { assisting, notAssisting, pending };
     };
 
+    const filteredFamilies = families.filter(([id, family]) => {
+        if (statusFilter === 'all') return true;
+
+        // Check if any family member matches the filter
+        return family.members.some(member =>
+            getMemberStatus(id, member) === statusFilter
+        );
+    });
+
     const totals = getTotals();
 
     return (
         <div className="space-y-4">
+            {/* Filter Buttons */}
+            <div className="flex flex-wrap gap-2 mb-6">
+                <button
+                    onClick={() => setStatusFilter('all')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:cursor-pointer
+                        ${statusFilter === 'all'
+                            ? 'bg-gray-800 text-white'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
+                >
+                    Todos
+                </button>
+                <button
+                    onClick={() => setStatusFilter('assists')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:cursor-pointer
+                        ${statusFilter === 'assists'
+                            ? 'bg-green-700 text-white'
+                            : 'bg-green-50 text-green-700 hover:bg-green-100'}`}
+                >
+                    Asistirán
+                </button>
+                <button
+                    onClick={() => setStatusFilter('no assist')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:cursor-pointer
+                        ${statusFilter === 'no assist'
+                            ? 'bg-red-700 text-white'
+                            : 'bg-red-50 text-red-700 hover:bg-red-100'}`}
+                >
+                    No Asistirán
+                </button>
+                <button
+                    onClick={() => setStatusFilter('pending')}
+                    className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors hover:cursor-pointer
+                        ${statusFilter === 'pending'
+                            ? 'bg-yellow-700 text-white'
+                            : 'bg-yellow-50 text-yellow-700 hover:bg-yellow-100'}`}
+                >
+                    Pendientes
+                </button>
+            </div>
+
             {/* Summary Cards - Changed grid to be responsive */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 <div className="bg-green-50 p-4 rounded-lg border border-green-700">
@@ -71,7 +123,7 @@ const FamilyList = ({ families, rsvpData }: FamilyListProps) => {
             {/* Existing List */}
             <div className="bg-white rounded-lg shadow">
                 <div className="divide-y divide-gray-200">
-                    {families.map(([id, family]) => (
+                    {filteredFamilies.map(([id, family]) => (
                         <div key={id} className="py-4 px-5 md:px-10 hover:bg-gray-50 font-secondary">
                             <div>
                                 <h3 className="text-xl font-medium text-gray-900 mb-3">{family.name}</h3>

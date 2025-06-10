@@ -80,7 +80,7 @@ const Dashboard = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 placeholder="Ingresa la contraseña"
-                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"
+                className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none"
               />
             </div>
             {error && (
@@ -88,7 +88,7 @@ const Dashboard = () => {
             )}
             <button
               type="submit"
-              className="w-full bg-bg-primary text-white py-3 px-4 rounded-lg hover:bg-primary/90 transition-colors"
+              className="w-full bg-primary text-white py-3 px-4 rounded-lg hover:bg-primary/60 transition-colors hover:cursor-pointer"
             >
               Acceder
             </button>
