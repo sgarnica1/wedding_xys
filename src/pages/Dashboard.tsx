@@ -88,7 +88,7 @@ const Dashboard = () => {
             )}
             <button
               type="submit"
-              className="w-full bg-primary text-white py-3 px-4 rounded-lg hover:bg-primary/60 transition-colors hover:cursor-pointer"
+              className="w-full bg-bg-primary text-white py-3 px-4 rounded-lg hover:bg-primary/60 transition-colors hover:cursor-pointer"
             >
               Acceder
             </button>
