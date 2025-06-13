@@ -225,7 +225,7 @@ export const GUESTS: GuestsType = {
     name: "Beto, Becky, Ashley & Megan",
     members: ["Beto", "Becky", "Ashley", "Megan"],
   },
-  "ramses-daniela": {
+  "ramses": {
     name: "Ramsés",
     members: ["Ramsés", "+1"],
   },
