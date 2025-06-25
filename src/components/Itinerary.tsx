@@ -10,12 +10,12 @@ const Itinerary = () => {
     {
       title: 'Recepción',
       time: '6:00 PM',
-      icon: ChurchIcon
+      icon: StarsIcon
     },
     {
       title: 'Ceremonia',
       time: '6:20 PM',
-      icon: StarsIcon
+      icon: ChurchIcon
     },
     {
       title: 'Cena',
