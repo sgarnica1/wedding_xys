@@ -145,9 +145,9 @@ export const GUESTS: GuestsType = {
     name: "Leo & Irma",
     members: ["Leo", "Irma"],
   },
-  "ricardo-miriam": {
-    name: "Ricardo & Miriam",
-    members: ["Ricardo", "Miriam"],
+  "david-toni": {
+    name: "David & Toni",
+    members: ["David", "Toni"],
   },
   "lalo-vero": {
     name: "Lalo & Vero",
