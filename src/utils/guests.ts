@@ -293,4 +293,12 @@ export const GUESTS: GuestsType = {
     name: "Isaí & Nancy",
     members: ["Isaí", "Nancy"],
   },
+  "marco": {
+    name: "Marco",
+    members: ["Marco"],
+  },
+  "alejandro": {
+    name: "Alejandro",
+    members: ["Alejandro"],
+  },
 };
