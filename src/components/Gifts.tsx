@@ -24,7 +24,7 @@ const Gifts = () => {
       <div className='flex flex-col justify-center items-center max-w-[500px] mx-auto'>
         <img src={GiftsTitle} alt="Gifts" className='w-full mb-10' />
         <p className='font-light text-center font-secondary'>Su presencia es el regalo más valioso en nuestro día especial.</p>
-        <p className='font-medium text-center font-secondary mt-5'>Agradecemos su generosidad y apooyo por este medio.</p>
+        <p className='font-medium text-center font-secondary mt-5'>Agradecemos su generosidad y apoyo por este medio.</p>
         <p className='font-secondary font-medium text-2xl uppercase mt-15 text-accent w-3/4 text-center'>Samuel Marañon Romero</p>
         <p className='font-secondary font-medium text-2xl uppercase mt-15 text-accent w-3/4 text-center'>Banamex</p>
         <p className='font-secondary font-medium text-xl uppercase text-accent w-3/4 mt-3 mb-10 text-center'>

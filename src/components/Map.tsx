@@ -7,10 +7,10 @@ const Map = () => {
         <h2 className='font-primary text-3xl uppercase mb-10 text-center'>¿Cómo llegar?</h2>
         <div className='flex flex-col justify-center items-center bg-[#937E6A] rounded-lg max-w-[500px] py-10 px-6'>
           <h2 className='text-[2rem] sm:text-4xl font-thin font-primary leading-[0.8] text-primary uppercase mb-6 text-center'>Finca El Olivo</h2>
-          <p className='text-primary font-secondary font-thin text-md md:text-sm mb-6 text-center'>
+          <p className='text-white font-secondary font-medium text-md md:text-sm mb-6 text-center'>
             Santa María Begoña, 76250, San Luis Potosí, México
           </p>
-          <p className='text-primary font-secondary font-thin text-md md:text-sm mb-6 text-center'>
+          <p className='text-white font-secondary font-medium text-md md:text-sm mb-6 text-center'>
             El Marqués, Querétaro
           </p>
           <Link

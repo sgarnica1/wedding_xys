@@ -16,7 +16,8 @@ const SaveTheDate = () => {
           className='w-[90%] max-w-[300px] mb-10'
         />
         <p className='font-light text-center font-secondary mb-10'>Con alegría, nos complace anunciar que hemos decidido unir nuestras vidas en matrimonio.</p>
-        <p className='font-light text-center font-secondary'>Este día especial es el comienzo de un nuevo capítulo en nuestra historia, un capítulo que queremos escribir junto a ustedes, nuestros amigos y familiares más queridos.</p>
+        <p className='font-light text-center font-secondary'>Que el Señor lleve sus corazones a amar como Dios ama y a perseverar como Cristo perseveró.</p>
+        <p className='font-bold text-center font-secondary'>2 Tesalonicenses 3:5</p>
       </div>
     </section>
   )
