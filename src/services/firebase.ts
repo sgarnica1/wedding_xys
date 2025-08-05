@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 // Initialize Firestore, Authentication, and Storage
 const db = getFirestore(app);
 
-const collectionName = 'rsvps_pau_kevin';
+const collectionName = 'rsvps_xime_sam';
 
 // Export the services
 export { db, collectionName };

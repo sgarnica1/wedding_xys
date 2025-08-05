@@ -1,304 +1,200 @@
 import { GuestsType } from './types'
 
 export const GUESTS: GuestsType = {
-  "david-carmen-mayra": {
-    name: "David, Carmen & Mayra",
-    members: ["David", "Carmen", "Mayra"],
+  "jaime-familia": {
+    name: "Jaime, Leticia & Silvana",
+    members: ["Jaime", "Leticia", "Silvana"],
   },
-  "david-diana": {
-    name: "David & Diana",
-    members: ["David", "Diana"],
+  "isaac-familia": {
+    name: "Isaac, Alondra, Ofelia & Meño",
+    members: ["Isaac", "Alondra", "Ofelia", "Meño"],
   },
-  "tia-lupe": {
-    name: "Tia Lupe",
-    members: ["Tia Lupe"],
+  "ricardo-familia": {
+    name: "Ricardo, Ceci, Angelica, Alex, Mary & Jose",
+    members: ["Ricardo", "Ceci", "Angelica", "Alex", "Mary", "Jose"],
   },
-  "jessie-diego-hugo": {
-    name: "Jessie, Diego & Hugo",
-    members: ["Jessie", "Diego", "Hugo"],
+  "hugo-damaris": {
+    name: "Hugo & Damaris",
+    members: ["Hugo", "Damaris"],
   },
-  "jahzel": {
-    name: "Jahzel",
-    members: ["Jahzel"],
+  "renata": {
+    name: "Renata",
+    members: ["Renata"],
   },
-  "cynthia": {
-    name: "Cynthia",
-    members: ["Cynthia"],
+  "jesus-familia": {
+    name: "Jesus, Rosario & Sonia",
+    members: ["Jesus", "Rosario", "Sonia"],
   },
-  "sophie-jose": {
-    name: "Sophie & Jose",
-    members: ["Sophie", "Jose"],
+  "sofia-boris": {
+    name: "Sofia & Boris",
+    members: ["Sofia", "Boris"],
   },
-  "rene-norma-emiliano": {
-    name: "Rene, Norma & Emiliano",
-    members: ["Rene", "Norma", "Emiliano"],
+  "marta-familia": {
+    name: "Marta, Juan & Nori",
+    members: ["Marta", "Juan", "Nori"],
   },
-  "alexis-marianne": {
-    name: "Alexis & Marianne",
-    members: ["Alexis", "Marianne"],
+  "salvador-familia": {
+    name: "Salvador, Belen & Valeria",
+    members: ["Salvador", "Belen", "Valeria"],
   },
-  "jose-luis-ysabel": {
-    name: "Jose Luis & Ysabel",
-    members: ["Jose Luis", "Ysabel"],
+  "fernanda-manuel": {
+    name: "Fernanda & Manuel",
+    members: ["Fernanda", "Manuel"],
   },
-  "christian": {
-    name: "Christian",
-    members: ["Christian"],
+  "diego-quetzali": {
+    name: "Diego & Quetzali",
+    members: ["Diego", "Quetzali"],
   },
-  "jorge-brianda": {
-    name: "Jorge & Brianda",
-    members: ["Jorge", "Brianda"],
+  "gloria": {
+    name: "Gloria",
+    members: ["Gloria"],
   },
-  "jose-luis-andrea": {
-    name: "Jose Luis & Andrea",
-    members: ["Jose Luis", "Andrea"],
-  },
-  "eric-esme": {
-    name: "Eric & Esme",
-    members: ["Eric", "Esme"],
-  },
-  "carmen-morena-mayra": {
-    name: "Carmen, Morena & Mayra",
-    members: ["Carmen", "Morena", "Mayra"],
-  },
-  "ramon-lety": {
-    name: "Ramon & Lety",
-    members: ["Ramon", "Lety"],
-  },
-  "sergio-lore": {
-    name: "Sergio & Lore",
-    members: ["Sergio", "Lore"],
-  },
-  "lari": {
-    name: "Lari",
-    members: ["Lari"],
-  },
-  "eleazar-raquel": {
-    name: "Eleazar & Raquel",
-    members: ["Eleazar", "Raquel"],
-  },
-  "samuel-ximena": {
-    name: "Samuel & Ximena",
-    members: ["Samuel", "Ximena"],
-  },
-  "aaron-fabi": {
-    name: "Aaron & Fabi",
-    members: ["Aaron", "Fabi"],
-  },
-  "cristobal": {
-    name: "Cristobal",
-    members: ["Cristobal"],
-  },
-  "ceci": {
-    name: "Ceci",
-    members: ["Ceci"],
-  },
-  "matias": {
-    name: "Matias",
-    members: ["Matias"],
-  },
-  "karlette-jimmy": {
-    name: "Karlette & Jimmy",
-    members: ["Karlette", "Jimmy"],
-  },
-  "alice": {
-    name: "Alice",
-    members: ["Alice"],
+  "arisbeth-salvador": {
+    name: "Arisbeth & Salvador",
+    members: ["Arisbeth", "Salvador"],
   },
   "gonzalo-hannia": {
     name: "Gonzalo & Hannia",
     members: ["Gonzalo", "Hannia"],
   },
-  "brayan-gis": {
-    name: "Brayan & Gis",
-    members: ["Brayan", "Gis"],
+  "anna-familia": {
+    name: "Anna, Ale Jasso & Itzel",
+    members: ["Anna", "Ale Jasso", "Itzel"],
   },
-  "armando-mylene": {
-    name: "Armando & Mylene",
-    members: ["Armando", "Mylene"],
+  "kevin-pau": {
+    name: "Kevin & Pau",
+    members: ["Kevin", "Pau"],
   },
-  "sergio-dafne": {
-    name: "Sergio & Dafne",
-    members: ["Sergio", "Dafne"],
+  "ceci": {
+    name: "Ceci",
+    members: ["Ceci"],
   },
-  "fernando-caro": {
-    name: "Fernando & Caro",
-    members: ["Fernando", "Caro"],
+  "rodo-uri": {
+    name: "Rodo & Uri",
+    members: ["Rodo", "Uri"],
   },
-  "daniel-denisse": {
-    name: "Daniel & Denisse",
-    members: ["Daniel", "Denisse"],
+  "cristobal": {
+    name: "Cristobal",
+    members: ["Cristobal"],
   },
-  "carlos-ana": {
-    name: "Carlos & Ana",
-    members: ["Carlos", "Ana"],
+  "carlos-nava": {
+    name: "Carlos Nava",
+    members: ["Carlos Nava"],
   },
-  "john-dana": {
-    name: "John & Dana",
-    members: ["John", "Dana"],
+  "ana-esteban": {
+    name: "Ana & Esteban",
+    members: ["Ana", "Esteban"],
   },
-  "pablo-mich": {
-    name: "Pablo & Mich",
-    members: ["Pablo", "Mich"],
+  "matt": {
+    name: "Matt",
+    members: ["Matt"],
   },
-  "leo-irma": {
-    name: "Leo & Irma",
-    members: ["Leo", "Irma"],
-  },
-  "david-toni": {
-    name: "David & Toni",
-    members: ["David", "Toni"],
-  },
-  "lalo-vero": {
-    name: "Lalo & Vero",
-    members: ["Lalo", "Vero"],
-  },
-  "luis-karen": {
-    name: "Luis & Karen",
-    members: ["Luis", "Karen"],
-  },
-  "cindy-tato": {
-    name: "Cindy & Tato",
-    members: ["Cindy", "Tato"],
-  },
-  "sandra-cesar": {
-    name: "Sandra & Cesar",
-    members: ["Sandra", "Cesar"],
-  },
-  "raquel-charlie-ayrton-michelle": {
-    name: "Raquel, Charlie, Ayrton & Michelle",
-    members: ["Raquel", "Charlie", "Ayrton", "Michelle"],
-  },
-  "mikey": {
-    name: "Mikey",
-    members: ["Mikey"],
-  },
-  "hannah-ivan": {
-    name: "Hannah & Ivan",
-    members: ["Hannah", "Ivan"],
-  },
-  "melody-corey": {
-    name: "Melody & Corey",
-    members: ["Melody", "Corey"],
-  },
-  "paul-lydia": {
-    name: "Paul & Lydia",
-    members: ["Paul", "Lydia"],
-  },
-  "joy-mark-sam": {
-    name: "Joy, Mark & Sam",
-    members: ["Joy", "Mark", "Sam"],
-  },
-  "sarah": {
-    name: "Sarah",
-    members: ["Sarah"],
-  },
-  "mike-jessie": {
-    name: "Mike & Jessie",
-    members: ["Mike", "Jessie"],
-  },
-  "danny-nancy": {
-    name: "Danny & Nancy",
-    members: ["Danny", "Nancy"],
-  },
-  "abue": {
-    name: "Abue",
-    members: ["Abue"],
-  },
-  "tia-yaya-tio-bilo-andrea-aranza": {
-    name: "Tia Yaya, Tio Bilo, Andrea & Aranza",
-    members: ["Tia Yaya", "Tio Bilo", "Andrea", "Aranza"],
-  },
-  "bai-michel": {
-    name: "Bai & Michel",
-    members: ["Bai", "Michel"],
-  },
-  "david-marilu": {
-    name: "David & Marilu",
-    members: ["David", "Marilu"],
+  "victor-carlos": {
+    name: "Victor & Carlos",
+    members: ["Victor", "Carlos"],
   },
   "ivan-grace": {
     name: "Ivan & Grace",
     members: ["Ivan", "Grace"],
   },
-  "beto-becky-ashley-megan": {
-    name: "Beto, Becky, Ashley & Megan",
-    members: ["Beto", "Becky", "Ashley", "Megan"],
+  "bai-mich": {
+    name: "Bai & Mich",
+    members: ["Bai", "Mich"],
   },
-  "ramses": {
-    name: "Ramsés",
-    members: ["Ramsés", "+1"],
+  "anabelle-carlos": {
+    name: "Anabelle & Carlos",
+    members: ["Anabelle", "Carlos"],
   },
-  "isaac-iliana": {
-    name: "Isaac & Iliana",
-    members: ["Isaac", "Iliana"],
+  "faby-aaron": {
+    name: "Faby & Aaron",
+    members: ["Faby", "Aaron"],
   },
-  "rodolfo": {
-    name: "Rodolfo",
-    members: ["Rodolfo"],
+  "wero-gis": {
+    name: "Wero & Gis",
+    members: ["Wero", "Gis"],
   },
-  "mich-saad": {
-    name: "Mich & Saad",
-    members: ["Mich", "Saad"],
+  "daniel-ximena": {
+    name: "Daniel & Ximena",
+    members: ["Daniel", "Ximena"],
   },
-  "frank": {
-    name: "Frank",
-    members: ["Frank"],
+  "miriam-luis": {
+    name: "Miriam & Luis",
+    members: ["Miriam", "Luis"],
   },
-  "cami-juanito": {
-    name: "Cami & Juanito",
-    members: ["Cami", "Juanito"],
+  "leo-irma": {
+    name: "Leo & Irma",
+    members: ["Leo", "Irma"],
   },
-  "marek": {
-    name: "Marek",
-    members: ["Marek"],
+  "john-dana": {
+    name: "John & Dana",
+    members: ["John", "Dana"],
   },
-  "glenn": {
-    name: "Glenn",
-    members: ["Glenn"],
+  "sergio-dafne": {
+    name: "Sergio & Dafne",
+    members: ["Sergio", "Dafne"],
   },
-  "mauricio-judith": {
-    name: "Mauricio & Judith",
-    members: ["Mauricio", "Judith"],
+  "braulio": {
+    name: "Braulio",
+    members: ["Braulio"],
   },
-  "martha": {
-    name: "Martha",
-    members: ["Martha"],
+  "eva-familia": {
+    name: "Eva, Horacio & Sebastian",
+    members: ["Eva", "Horacio", "Sebastian"],
   },
-  "matt-layla": {
-    name: "Matt & Layla",
-    members: ["Matt", "Layla"],
+  "fernando-carolina": {
+    name: "Fernando & Carolina",
+    members: ["Fernando", "Carolina"],
   },
-  "emanuel": {
-    name: "Emanuel",
-    members: ["Emanuel"],
+  "eleazar-familia": {
+    name: "Eleazar, Raquel & Larissa",
+    members: ["Eleazar", "Raquel", "Larissa"],
   },
-  "rebeca": {
-    name: "Rebeca",
-    members: ["Rebeca"],
+  "sergio-lore": {
+    name: "Sergio & Lore",
+    members: ["Sergio", "Lore"],
   },
-  "margarita-pablo": {
-    name: "Margarita & Pablo",
-    members: ["Margarita", "Pablo"],
+  "estefania-familia": {
+    name: "Estefania, Sofia, Fernanda & Grace",
+    members: ["Estefania", "Sofia", "Fernanda", "Grace"],
   },
-  "gustavo-eva": {
-    name: "Gustavo & Eva",
-    members: ["Gustavo", "Eva"],
+  "eleazar-mary": {
+    name: "Eleazar & Mary",
+    members: ["Eleazar", "Mary"],
   },
-  "carlos-ana-estrada": {
-    name: "Carlos & Ana",
-    members: ["Carlos", "Ana"],
+  "gerardo-familia": {
+    name: "Gerardo, Marcela, Gabriela & Carolina",
+    members: ["Gerardo", "Marcela", "Gabriela", "Carolina"],
   },
-  "isai-nancy": {
-    name: "Isaí & Nancy",
-    members: ["Isaí", "Nancy"],
+  "edgar-familia": {
+    name: "Edgar, Nora, Grace, Joyce & Chris",
+    members: ["Edgar", "Nora", "Grace", "Joyce", "Chris"],
   },
-  "marco": {
-    name: "Marco",
-    members: ["Marco"],
+  "samuel-ximena": {
+    name: "Samuel & Ximena",
+    members: ["Samuel", "Ximena"],
   },
-  "alejandro": {
-    name: "Alejandro",
-    members: ["Alejandro"],
+  "hugo-familia": {
+    name: "Hugo, Claudia & Erick",
+    members: ["Hugo", "Claudia", "Erick"],
   },
+  "patricia": {
+    name: "Patricia",
+    members: ["Patricia"],
+  },
+  "ricardo-patricia": {
+    name: "Ricardo & Patricia",
+    members: ["Ricardo", "Patricia"],
+  },
+  "manuel-fabiola": {
+    name: "Manuel & Fabiola",
+    members: ["Manuel", "Fabiola"],
+  },
+  "armando-carla": {
+    name: "Armando & Carla",
+    members: ["Armando", "Carla"],
+  },
+  "jesus-anel": {
+    name: "Jesus & Anel",
+    members: ["Jesus", "Anel"],
+  }
 };

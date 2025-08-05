@@ -1,25 +1,32 @@
+import ItineraryTitle from '../assets/icons/itinerary-title.svg';
 import ChurchIcon from '../assets/icons/church.svg';
 import StarsIcon from '../assets/icons/stars.svg';
 import DishesIcon from '../assets/icons/dishes.svg';
 import DanceIcon from '../assets/icons/dance.svg';
 import ClockIcon from '../assets/icons/clock.svg';
+import CoctailIcon from '../assets/icons/coctail.svg';
 
 const Itinerary = () => {
 
   const ItineraryData = [
     {
       title: 'Recepción',
-      time: '6:00 PM',
+      time: '4:40 PM',
       icon: StarsIcon
     },
     {
-      title: 'Ceremonia',
-      time: '6:20 PM',
+      title: '¡Sí, acepto!',
+      time: '5:00 PM',
       icon: ChurchIcon
     },
     {
+      title: 'Cóctel',
+      time: '6:00 PM',
+      icon: CoctailIcon
+    },
+    {
       title: 'Cena',
-      time: '8:00 PM',
+      time: '7:00 PM',
       icon: DishesIcon
     },
     {
@@ -28,25 +35,25 @@ const Itinerary = () => {
       icon: DanceIcon
     },
     {
-      title: 'Bye, Bye',
+      title: 'Fin',
       time: '1:00 AM',
       icon: ClockIcon
     },
   ]
 
   return (
-    <section className='flex flex-col justify-center items-center bg-white rounded-br-4xl py-20 px-6'>
+    <section className='flex flex-col justify-center items-center py-10 px-6'>
       <div className='flex flex-col justify-center items-centermax-w-[500px] mx-auto'>
-        <h2 className='text-5xl sm:text-6xl font-bold font-primary leading-[0.8] text-secondary text-center uppercase mb-12'>Itinerario</h2>
+        <img src={ItineraryTitle} alt="Itinerary" className='w-full mb-12' />
         <div className='grid grid-cols-1 gap-8'>
           {ItineraryData.map((item, index) => (
-            <div key={index} className='grid grid-cols-[30%_70%] gap-15 sm:gap-10'>
+            <div key={index} className='grid grid-cols-[2fr_3fr] gap-10 sm:gap-10'>
               <div className='flex items-end w-full justify-end'>
                 <img src={item.icon} alt={item.title} className='w-12 h-12' />
               </div>
-              <div className='text-accent uppercase font-secondary flex flex-col justify-center'>
+              <div className='text-accent uppercase font-primary font-medium flex flex-col justify-center'>
                 <p className='text-xl'>{item.time}</p>
-                <h3 className='text-lg text-secondary font-medium'>{item.title}</h3>
+                <h3 className='text-md text-black font-light font-secondary'>{item.title}</h3>
               </div>
             </div>
           ))}
