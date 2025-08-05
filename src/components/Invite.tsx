@@ -21,10 +21,7 @@ const Invite = () => {
       <div className='flex flex-col justify-center items-start bg-bg-primary rounded-lg w-[90%] max-w-[500px] py-10 px-6'>
         <h2 className='text-[2rem] sm:text-4xl font-thin font-primary leading-[0.8] text-primary uppercase mb-6'>{familyName}</h2>
         <p className='text-primary font-secondary font-thin text-md md:text-sm mb-6'>
-          Por favor, confirma antes del
-        </p>
-        <p className='text-primary font-secondary font-semibold text-md md:text-sm mb-6'>
-          14 de agosto del 2025
+          Por favor, confirma antes del <span className='font-semibold'>14 de agosto del 2025</span>
         </p>
         <Link
           to={`/rsvp/${familyKey}`}
