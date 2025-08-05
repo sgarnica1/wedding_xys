@@ -51,7 +51,7 @@ const Gifts = () => {
 
       {/* Toast Notification */}
       {showToast && (
-        <div className='fixed bottom-4 left-1/2 transform -translate-x-1/2 bg-[#937E6A] text-primary px-6 py-3 rounded-lg shadow-lg z-50 animate-fade-in w-3/4 max-w-[400px]'>
+        <div className='fixed bottom-4 left-0 right-0 mx-auto bg-[#937E6A] text-primary px-6 py-3 rounded-lg shadow-lg z-50 animate-fade-in w-3/4 max-w-[400px]'>
           <p className='font-light font-secondary'>{toastMessage}</p>
         </div>
       )}
