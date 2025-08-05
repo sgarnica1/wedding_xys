@@ -1,6 +1,6 @@
 import DressCodeImage from '../assets/icons/dresscode.svg';
 
-const colors = ["#937E6A", "#BD9469", "#71383A", "#B2A69B", "#8C8A8D"]
+const colors = ["#937E6A", "#BD9469", "#71383A", "#B2A69B", "#8C8A8D", "#808000"]
 
 const DressCode = () => {
   return (
